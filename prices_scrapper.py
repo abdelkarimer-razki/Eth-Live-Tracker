@@ -138,7 +138,7 @@ try:
 			price = [price.text for price in soup.select(".WXGwg")]
 
 			# Sleep: pour eviter la detection des anti bot
-			time.sleep(randint(1, 5))
+			# time.sleep(randint(1, 5))
 
 		except Exception as e:
 			print(f"Error waiting for element: {e}")
